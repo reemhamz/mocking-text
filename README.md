@@ -12,6 +12,34 @@ Convert your text into mocking text `tHaT LoOkS LiKe tHiS`
 ## About 📖
 Wanted to play around with ChatGPT's coding capabilities to create a mocking text app just for fun!
 
+## Findings 🧐
+It really lacked in writing accessible code, both in HTML and CSS. It did not wrap our `input` and `button` elements in a `form` element, which is very anti-pattern and can become inaccessible when using the web, and it also separated the `input` and `button` elements into different `divs`:
+```
+<div class="container">
+  <h1 class="title">Mocking Text Generator</h1>
+  <div class="form-group">
+    <label for="input-text">Enter your text:</label>
+    <input type="text" id="input-text">
+  </div>
+  <div class="form-group">
+    <button id="convert-button">Convert to Mocking Text</button>
+  </div>
+  <div class="form-group">
+    <label for="converted-text">Mocking Text:</label>
+    <p id="converted-text"></p>
+  </div>
+</div>
+```
+
+Its CSS accessibility also wasn't the greatest. I had to go in at one point and edit the CSS even after I asked it to make the font text accessible:
+
+![Screen Shot 2023-03-27 at 6 38 29 PM](https://user-images.githubusercontent.com/42309026/227873203-8f9c69ea-2f49-4186-a5f8-523d337b15ab.png)
+
+![Screen Shot 2023-03-27 at 6 39 47 PM](https://user-images.githubusercontent.com/42309026/227873499-84ff8d0f-617b-4ad8-95b7-b865ba1fd6e7.png)
+
+It's obviously not ideal, and not a tool I would ever use to actually write up my websites. However, the JavaScript functions were much better than its HTML and CSS counterparts. I can see myself using ChatGPT to help me with working around JS problems than I would other languages.
+
+
 ## How to use 🪜
 Simply type whatever you'd like to convert into the input field, and press the 'Submit' button to see the converted text.
 
