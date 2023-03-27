@@ -12,6 +12,11 @@ Convert your text into mocking text `tHaT LoOkS LiKe tHiS`
 ## About 📖
 Wanted to play around with ChatGPT's coding capabilities to create a mocking text app just for fun!
 
+
+The entire site has been developed with ChatGPT's capabilities. I just went in to make the following changes:
+- Wrapped `label`, `input`, and `button` elements in a `form` tag
+- Changed CSS code to remove GPT's `text-transform: uppercase` rule from the `input` element
+
 ## Findings 🧐
 It really lacked in writing accessible code, both in HTML and CSS. It did not wrap our `input` and `button` elements in a `form` element, which is very anti-pattern and can become inaccessible when using the web, and it also separated the `input` and `button` elements into different `divs`:
 ```
