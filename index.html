@@ -5,17 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mocking text</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mocking text</h1>
-    <form id="form">
-        <label>Write text: <input type="text" id="input-text"/></label>
-        <br /><br />
-        <button type="submit" id="convert-button">Submit form</button>
-    </form>
-    <p id="converted-text">
+    <div class="container">
+        <h1 class="title">Mocking Text Generator</h1>
+        <div class="form-group">
+            <form action="#" id="form">
+                <label for="input-text">Enter your text:</label>
+                <input type="text" id="input-text">
+                <br />
+                <button id="convert-button" type"submit">Convert to Mocking Text</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="form-group">
+            <label for="converted-text">Mocking Text:</label>
+            <p id="converted-text"></p>
+        </div>
+    </div>
 
-    </p>
 </body>
 </html>
 <script src="script.js">

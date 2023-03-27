@@ -1,0 +1,80 @@
+body {
+  background-color: #335c67;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff3b0;
+  border-radius: 30px;
+  border: 10px solid #9e2a2b;
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  color: #e09f3e;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive;
+  color: #9e2a2b;
+}
+
+input[type="text"] {
+  border: 2px solid #e09f3e;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: 28px;
+  background-color: transparent;
+  font-family: 'Comic Sans MS', cursive;
+  color: #9e2a2b;
+}
+
+button {
+  border: none;
+  padding: 20px 50px;
+  font-size: 36px;
+  background-color: #e09f3e;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 50px;
+  font-family: 'Comic Sans MS', cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #9e2a2b;
+  color: #fff;
+}
+
+#converted-text {
+  font-size: 36px;
+  line-height: 1.5;
+  margin-top: 30px;
+  white-space: pre-wrap;
+  color: #fff;
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  background-color: #540b0e;
+  padding: 30px;
+  border-radius: 50px;
+  border: 10px solid #e09f3e;
+}
